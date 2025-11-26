@@ -97,8 +97,7 @@ export default defineConfig({
     },
   },
   server: {
-    // use environment PORT if set (useful for some hosts), fallback to 5173 (Vite default)
-    port: Number(process.env.PORT) || 5173,
+    port: 3000,
     host: "0.0.0.0",
   },
 });
