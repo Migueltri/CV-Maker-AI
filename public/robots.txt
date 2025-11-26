@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Allow: /generator
+Disallow: /404
+Disallow: /*?*
+
+Sitemap: https://example.com/sitemap.xml
