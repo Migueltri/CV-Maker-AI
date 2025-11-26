@@ -96,8 +96,8 @@ export default defineConfig({
       "@": resolve(__dirname, "./src"),
     },
   },
-  server: {
-    port: 5173,
-    host: "0.0.0.0",
-  },
+server: {
+  port: Number(process.env.PORT) || 5173,
+  host: "0.0.0.0",
+},
 });
